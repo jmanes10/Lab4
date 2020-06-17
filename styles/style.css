@@ -1,0 +1,122 @@
+
+/* Style sheet
+   color picker www.w3schools.com/colors/colors_picker.asp
+*/
+
+/* Bootstrap default font-family is Helvetica Neue */
+h1 {
+  font-family: "arial";
+ 
+}
+/* my css */
+
+body {
+  width:100%;
+  overflow-x: hidden;
+}
+
+.home_banner {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+
+}
+
+#header {
+  height: 160px;
+  padding: 22px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  z-index: 11;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+#header {
+  height: 80px;
+  padding: 22px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  z-index: 11;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+#nav {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+}
+#nav ul li {
+  list-style: none;
+  display: inline;
+  margin-left: 10px;
+  margin-left: 15px;
+  font-family: arial;
+  font-weight: 500;
+}
+
+#nav ul li a {
+  color:#cc6590;
+  text-decoration: none;
+}
+.logo {
+  width:135px;
+}
+
+.main {
+  padding: 0px;
+  margin:0px;
+  border: 25px solid #323232;
+
+}
+.intro_msg {
+  background: #f04a90;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 27px;
+}
+
+p {
+  font-family: arial;
+  margin-bottom: 0px;
+ 
+}
+
+.services {
+  background-color: pink;
+  text-align: center;
+}
+.services .col-3 {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  border: 2px dashed #f69c55;
+
+}
+
+.services .col-3 p{
+  font-family: arial;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.services .col-3 p:hover{
+  font-size: 17px;
+  line-height: 110px;
+  transition-delay: 0.3s;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 0px;
+  padding-bottom: 13px;
+}
